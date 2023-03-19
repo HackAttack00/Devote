@@ -1,0 +1,605 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		39A8EF2F29C69D7A005619AC /* DevoteApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39A8EF2E29C69D7A005619AC /* DevoteApp.swift */; };
+		39A8EF3129C69D7A005619AC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39A8EF3029C69D7A005619AC /* ContentView.swift */; };
+		39A8EF3329C69D7B005619AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39A8EF3229C69D7B005619AC /* Assets.xcassets */; };
+		39A8EF3629C69D7B005619AC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39A8EF3529C69D7B005619AC /* Preview Assets.xcassets */; };
+		39A8EF3829C69D7B005619AC /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39A8EF3729C69D7B005619AC /* Persistence.swift */; };
+		39A8EF3B29C69D7B005619AC /* Devote.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 39A8EF3929C69D7B005619AC /* Devote.xcdatamodeld */; };
+		39A8EF4629C69D7B005619AC /* DevoteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39A8EF4529C69D7B005619AC /* DevoteTests.swift */; };
+		39A8EF5029C69D7B005619AC /* DevoteUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39A8EF4F29C69D7B005619AC /* DevoteUITests.swift */; };
+		39A8EF5229C69D7B005619AC /* DevoteUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39A8EF5129C69D7B005619AC /* DevoteUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		39A8EF4229C69D7B005619AC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 39A8EF2329C69D7A005619AC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 39A8EF2A29C69D7A005619AC;
+			remoteInfo = Devote;
+		};
+		39A8EF4C29C69D7B005619AC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 39A8EF2329C69D7A005619AC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 39A8EF2A29C69D7A005619AC;
+			remoteInfo = Devote;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		39A8EF2B29C69D7A005619AC /* Devote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Devote.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		39A8EF2E29C69D7A005619AC /* DevoteApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DevoteApp.swift; sourceTree = "<group>"; };
+		39A8EF3029C69D7A005619AC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		39A8EF3229C69D7B005619AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		39A8EF3529C69D7B005619AC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		39A8EF3729C69D7B005619AC /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		39A8EF3A29C69D7B005619AC /* Devote.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Devote.xcdatamodel; sourceTree = "<group>"; };
+		39A8EF3C29C69D7B005619AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		39A8EF4129C69D7B005619AC /* DevoteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DevoteTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		39A8EF4529C69D7B005619AC /* DevoteTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DevoteTests.swift; sourceTree = "<group>"; };
+		39A8EF4B29C69D7B005619AC /* DevoteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DevoteUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		39A8EF4F29C69D7B005619AC /* DevoteUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DevoteUITests.swift; sourceTree = "<group>"; };
+		39A8EF5129C69D7B005619AC /* DevoteUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DevoteUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		39A8EF2829C69D7A005619AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39A8EF3E29C69D7B005619AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39A8EF4829C69D7B005619AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		39A8EF2229C69D7A005619AC = {
+			isa = PBXGroup;
+			children = (
+				39A8EF2D29C69D7A005619AC /* Devote */,
+				39A8EF4429C69D7B005619AC /* DevoteTests */,
+				39A8EF4E29C69D7B005619AC /* DevoteUITests */,
+				39A8EF2C29C69D7A005619AC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		39A8EF2C29C69D7A005619AC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				39A8EF2B29C69D7A005619AC /* Devote.app */,
+				39A8EF4129C69D7B005619AC /* DevoteTests.xctest */,
+				39A8EF4B29C69D7B005619AC /* DevoteUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		39A8EF2D29C69D7A005619AC /* Devote */ = {
+			isa = PBXGroup;
+			children = (
+				39A8EF2E29C69D7A005619AC /* DevoteApp.swift */,
+				39A8EF3029C69D7A005619AC /* ContentView.swift */,
+				39A8EF3229C69D7B005619AC /* Assets.xcassets */,
+				39A8EF3729C69D7B005619AC /* Persistence.swift */,
+				39A8EF3C29C69D7B005619AC /* Info.plist */,
+				39A8EF3929C69D7B005619AC /* Devote.xcdatamodeld */,
+				39A8EF3429C69D7B005619AC /* Preview Content */,
+			);
+			path = Devote;
+			sourceTree = "<group>";
+		};
+		39A8EF3429C69D7B005619AC /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				39A8EF3529C69D7B005619AC /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		39A8EF4429C69D7B005619AC /* DevoteTests */ = {
+			isa = PBXGroup;
+			children = (
+				39A8EF4529C69D7B005619AC /* DevoteTests.swift */,
+			);
+			path = DevoteTests;
+			sourceTree = "<group>";
+		};
+		39A8EF4E29C69D7B005619AC /* DevoteUITests */ = {
+			isa = PBXGroup;
+			children = (
+				39A8EF4F29C69D7B005619AC /* DevoteUITests.swift */,
+				39A8EF5129C69D7B005619AC /* DevoteUITestsLaunchTests.swift */,
+			);
+			path = DevoteUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		39A8EF2A29C69D7A005619AC /* Devote */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 39A8EF5529C69D7B005619AC /* Build configuration list for PBXNativeTarget "Devote" */;
+			buildPhases = (
+				39A8EF2729C69D7A005619AC /* Sources */,
+				39A8EF2829C69D7A005619AC /* Frameworks */,
+				39A8EF2929C69D7A005619AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Devote;
+			productName = Devote;
+			productReference = 39A8EF2B29C69D7A005619AC /* Devote.app */;
+			productType = "com.apple.product-type.application";
+		};
+		39A8EF4029C69D7B005619AC /* DevoteTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 39A8EF5829C69D7B005619AC /* Build configuration list for PBXNativeTarget "DevoteTests" */;
+			buildPhases = (
+				39A8EF3D29C69D7B005619AC /* Sources */,
+				39A8EF3E29C69D7B005619AC /* Frameworks */,
+				39A8EF3F29C69D7B005619AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				39A8EF4329C69D7B005619AC /* PBXTargetDependency */,
+			);
+			name = DevoteTests;
+			productName = DevoteTests;
+			productReference = 39A8EF4129C69D7B005619AC /* DevoteTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		39A8EF4A29C69D7B005619AC /* DevoteUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 39A8EF5B29C69D7B005619AC /* Build configuration list for PBXNativeTarget "DevoteUITests" */;
+			buildPhases = (
+				39A8EF4729C69D7B005619AC /* Sources */,
+				39A8EF4829C69D7B005619AC /* Frameworks */,
+				39A8EF4929C69D7B005619AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				39A8EF4D29C69D7B005619AC /* PBXTargetDependency */,
+			);
+			name = DevoteUITests;
+			productName = DevoteUITests;
+			productReference = 39A8EF4B29C69D7B005619AC /* DevoteUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		39A8EF2329C69D7A005619AC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					39A8EF2A29C69D7A005619AC = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					39A8EF4029C69D7B005619AC = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 39A8EF2A29C69D7A005619AC;
+					};
+					39A8EF4A29C69D7B005619AC = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 39A8EF2A29C69D7A005619AC;
+					};
+				};
+			};
+			buildConfigurationList = 39A8EF2629C69D7A005619AC /* Build configuration list for PBXProject "Devote" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 39A8EF2229C69D7A005619AC;
+			productRefGroup = 39A8EF2C29C69D7A005619AC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				39A8EF2A29C69D7A005619AC /* Devote */,
+				39A8EF4029C69D7B005619AC /* DevoteTests */,
+				39A8EF4A29C69D7B005619AC /* DevoteUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		39A8EF2929C69D7A005619AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39A8EF3629C69D7B005619AC /* Preview Assets.xcassets in Resources */,
+				39A8EF3329C69D7B005619AC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39A8EF3F29C69D7B005619AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39A8EF4929C69D7B005619AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		39A8EF2729C69D7A005619AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39A8EF3829C69D7B005619AC /* Persistence.swift in Sources */,
+				39A8EF3129C69D7A005619AC /* ContentView.swift in Sources */,
+				39A8EF3B29C69D7B005619AC /* Devote.xcdatamodeld in Sources */,
+				39A8EF2F29C69D7A005619AC /* DevoteApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39A8EF3D29C69D7B005619AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39A8EF4629C69D7B005619AC /* DevoteTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39A8EF4729C69D7B005619AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39A8EF5029C69D7B005619AC /* DevoteUITests.swift in Sources */,
+				39A8EF5229C69D7B005619AC /* DevoteUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		39A8EF4329C69D7B005619AC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 39A8EF2A29C69D7A005619AC /* Devote */;
+			targetProxy = 39A8EF4229C69D7B005619AC /* PBXContainerItemProxy */;
+		};
+		39A8EF4D29C69D7B005619AC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 39A8EF2A29C69D7A005619AC /* Devote */;
+			targetProxy = 39A8EF4C29C69D7B005619AC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		39A8EF5329C69D7B005619AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		39A8EF5429C69D7B005619AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		39A8EF5629C69D7B005619AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Devote/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.HackAttack.Devote;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		39A8EF5729C69D7B005619AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Devote/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.HackAttack.Devote;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		39A8EF5929C69D7B005619AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.HackAttack.DevoteTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Devote.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Devote";
+			};
+			name = Debug;
+		};
+		39A8EF5A29C69D7B005619AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.HackAttack.DevoteTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Devote.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Devote";
+			};
+			name = Release;
+		};
+		39A8EF5C29C69D7B005619AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.HackAttack.DevoteUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Devote;
+			};
+			name = Debug;
+		};
+		39A8EF5D29C69D7B005619AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.HackAttack.DevoteUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Devote;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		39A8EF2629C69D7A005619AC /* Build configuration list for PBXProject "Devote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39A8EF5329C69D7B005619AC /* Debug */,
+				39A8EF5429C69D7B005619AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		39A8EF5529C69D7B005619AC /* Build configuration list for PBXNativeTarget "Devote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39A8EF5629C69D7B005619AC /* Debug */,
+				39A8EF5729C69D7B005619AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		39A8EF5829C69D7B005619AC /* Build configuration list for PBXNativeTarget "DevoteTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39A8EF5929C69D7B005619AC /* Debug */,
+				39A8EF5A29C69D7B005619AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		39A8EF5B29C69D7B005619AC /* Build configuration list for PBXNativeTarget "DevoteUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39A8EF5C29C69D7B005619AC /* Debug */,
+				39A8EF5D29C69D7B005619AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		39A8EF3929C69D7B005619AC /* Devote.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				39A8EF3A29C69D7B005619AC /* Devote.xcdatamodel */,
+			);
+			currentVersion = 39A8EF3A29C69D7B005619AC /* Devote.xcdatamodel */;
+			path = Devote.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 39A8EF2329C69D7A005619AC /* Project object */;
+}
